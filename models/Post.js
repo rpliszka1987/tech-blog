@@ -1,6 +1,6 @@
 const { Model, DataTypes } = require('sequalize');
-const sequalize = require('../config/connection');
-const bcrypt = require('bcrypt');
+const sequelize = require('../config/connection');
+
 
 class Post extends Model {}
 
@@ -32,7 +32,7 @@ Post.init(
         }
     },
     {
-        sequalize,
+        sequelize,
         freezeTableName: true,
         underscored: true,
         modelName: 'post'
