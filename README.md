@@ -1,14 +1,16 @@
 # Tech Blog
 
-## Table of concept
+## Table of Concept
 
 - [Description](#description)
 - [Installation](#installation)
 - [NPM-Packages](#packages)
+- [Github](#github)
+- [Screenshot](#screenshot)
 
 ## Description
 
-This is a blogging application which is used to spread news and information in the Tech Industry. Users are able to create a username by registering with a new users form. Upon login users are able to login and post their articles. As a logged in user they can create, read, update, and delete their posts (CRUD). Users are also able to comment on other users posts.
+This is a blogging application which is used to spread news and information in the Tech Industry. Users are able to create a username by registering with a new users form. Upon login users are able to login and post their articles. As a logged in user they can create, read, update, and delete their posts (CRUD). Users are also able to comment on other users posts. This project is build with different database tables (User, Posts, and Comments).
 
 ## Installation
 
@@ -30,5 +32,11 @@ Following NPM packages used in this project, also found in the package.json file
 - doetnv
 - connect-session-sequelize
 - bcrypt
+
+## Github
+
+- url - https://github.com/rpliszka1987/tech-blog
+
+## Screenshot
 
 [Back-To-Top](#tech-blog)
