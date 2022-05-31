@@ -1,4 +1,4 @@
-const { Model, DataTypes } = require('sequalize');
+const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 const bcrypt = require('bcrypt');
 
@@ -11,7 +11,7 @@ class User extends Model {
 User.init(
     {
         id: {
-            tpye: DataTypes.INTEGER,
+            type: DataTypes.INTEGER,
             allowNull: false,
             primaryKey: true,
             autoIncrement: true
