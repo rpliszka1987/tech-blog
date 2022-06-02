@@ -4,19 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
     <title>The Tech Blog</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <header class="navigation">
-            <nav>
-                <a href="/">Home</a>
-                <a href="/dashboard">Dashboard</a>
-                <a href="/login">Login</a>
-                <button id="logout" class="btn-no-class">Logout</button>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                        </li>
+                        <li class="nav-item">
+                        <button class="btn">Logout</button>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h1>The Tech Blog</h1>
+                </div>
             </nav>
-            <h1>The Tech Blog</h1>
+            
         </header>
         <main>
             {{{ body }}}
