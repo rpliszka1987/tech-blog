@@ -11,6 +11,7 @@ router.get('/', (req, res) => {
         'id',
         'post_url',
         'title',
+        'post_text',
         'created_at'
       ],
       include: [
@@ -45,6 +46,7 @@ Post.findOne({
     'id',
     'post_url',
     'title',
+    'post_text',
     'created_at'
     ],
     include: [
@@ -81,6 +83,7 @@ router.post('/', withAuth, (req, res) => {
 Post.create({
     title: req.body.title,
     post_url: req.body.post_url,
+    post_text: req.body.post_text,
     user_id: req.session.user_id
 })
     .then(dbPostData => res.json(dbPostData))

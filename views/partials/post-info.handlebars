@@ -1,0 +1,18 @@
+ 
+<article class="post">
+    <div class="card">
+        <div class="card-header bg-dark text-light">
+            <div class="post-name">
+                {{title}}
+            </div>
+            <div class="post-info">
+                Posted by {{user.username}} on {{format_date created_at}}
+            </div>        
+        </div>
+        <div class="card-body">
+            <p>
+                {{post_text}}
+            </p>
+        </div>
+    </div>
+</article>
