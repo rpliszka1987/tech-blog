@@ -20,15 +20,19 @@
                         <li class="nav-item">
                         <a class="nav-link text-light" href="/">Home</a>
                         </li>
+                        {{#if loggedIn}}
                         <li class="nav-item">
                         <a class="nav-link text-light" href="/dashboard">Dashboard</a>
                         </li>
+                         <li class="nav-item">
+                        <button id="logout" class="btn text-light">Logout</button>
+                        </li>
+                        {{else}}
                         <li class="nav-item">
                         <a class="nav-link text-light" href="/login">Login</a>
                         </li>
-                        <li class="nav-item">
-                        <button class="btn text-light">Logout</button>
-                        </li>
+                        {{/if}}
+                       
                     </ul>
                 </div>
                 <div>
@@ -41,6 +45,10 @@
             {{{ body }}}
         </main>
     </div>
+
+    {{#if loggedIn}}
+        <script src="/javascript/logout.js"></script>
+    {{/if}}
     
 
 

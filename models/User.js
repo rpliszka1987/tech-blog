@@ -18,7 +18,8 @@ User.init(
         },
         username: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
+            uniqur: true
         },
         password: {
             type: DataTypes.STRING,
