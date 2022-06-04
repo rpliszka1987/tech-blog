@@ -35,3 +35,8 @@ li {
 .navigation-bar {
     padding-left: 40px;
 }
+
+.button-align {
+    position:absolute;
+    bottom:5px;
+}
