@@ -5,4 +5,7 @@ async function formPost(event) {
 
 }
 
+
+
 document.querySelector('.add-post').addEventListener('click', formPost);
+

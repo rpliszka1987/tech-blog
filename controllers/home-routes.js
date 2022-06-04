@@ -59,7 +59,7 @@ router.get('/signup', (req, res) => {
 
 // New post pag
 router.get('/newpost', (req, res) => {
-    res.render('add-post');
+    res.render('add-post', {loggedIn: true});
 });
 
 module.exports = router;
