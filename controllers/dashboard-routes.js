@@ -11,6 +11,9 @@ router.get('/', withAuth, (req, res) => {
     where: {
       user_id: req.session.user_id
     },
+    order: [
+      ['id', 'DESC']
+    ],
     attributes: [
       'id',
       'title',
