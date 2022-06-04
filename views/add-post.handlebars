@@ -1,27 +1,26 @@
 <div class="d-flex justify-content-center" style="max-width: 90rem;">
     <div class="card text-bg-light mb-3" style="width: 50rem;">
-    <div class="card-header">Login</div>
+    <div class="card-header">Create New Post</div>
     <div class="card-body">
         <form class="login-form">
             <div>
-                <label for="user-login ">Username</label>
+                <label for="user-login ">Title</label>
             </div>
             <div>    
                 <input type="text" class="input-login" id="user-login">
             </div>
             <div>
-                <label for="password-login ">Password</label>
+                <label for="password-login ">Content</label>
             </div>
             <div>
-                <input type="password" class="input-login" id="password-login">
+                <textarea name="comment" class="input-login" id="comment"></textarea>
             </div>
             <div>
-                <button type="submit">Login!</button>
+                <button type="submit">Create!</button>
             </div>
         </form>
-        <a class="nav-link" href="/signup">Sign up instead</a>
+    
     </div>
     </div>
 </div>
 
-<script src="/javascript/login.js"></script>
