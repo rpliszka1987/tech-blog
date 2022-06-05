@@ -16,10 +16,13 @@
 
 .card {
     width: 100%;
+ 
 }
 
 ol {
     list-style-type: none;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 li {
@@ -39,4 +42,39 @@ li {
 .button-align {
     position:absolute;
     bottom:5px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.text-white{
+    color: #fff;
+}
+
+.comment-form {
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.button-position {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.post {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
+
+.comment {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
 }

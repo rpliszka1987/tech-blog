@@ -1,0 +1,27 @@
+<div class="bg-dark text-light">
+  <h1 class="page-header">Your Dashboard</h1>
+</div>
+
+{{> post-info post }}
+
+{{!-- Will show if user is logged in --}}
+{{#if loggedIn }}
+
+
+<form class="comment-form">
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Comment</label>
+    <textarea name="comment-body" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div>
+      <button type="submit" class="btn btn-secondary btn-lg btn-block bg-dark button-position">Add Comment</button>
+  </div>
+</form>
+{{/if}}
+
+{{> comments post.comments }}
+
+{{!-- Will load JS only if user logged in. Otherwise you get console log of missing js files. --}}
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+{{/if}}
