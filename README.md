@@ -48,4 +48,24 @@ Following NPM packages used in this project, also found in the package.json file
 
 ## Screenshot
 
+Homepage
+
+![homepage](/images/Homepage.png)
+
+Login
+
+![login](/images/Login-page.png)
+
+Sign Up
+
+![signup](/images/Sign-up-page.png)
+
+Dashboard
+
+![dashboard](/images/Dashboard-page.png)
+
+Single Post
+
+![single-post](/images/Single-post-page.png)
+
 [Back-To-Top](#tech-blog)
