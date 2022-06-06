@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Installation](#installation)
+- [Database](#database)
 - [NPM-Packages](#packages)
 - [Github](#github)
 - [Screenshot](#screenshot)
@@ -18,6 +19,14 @@ To install the application dependencies run following command:
 
 ```console
 $ npm i
+```
+
+## Database
+
+You will need to populate the database. Use the db/seeds file to pupulate
+
+```console
+$ npm run seed
 ```
 
 ## Packages

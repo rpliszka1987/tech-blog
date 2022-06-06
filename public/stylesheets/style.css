@@ -78,3 +78,19 @@ a {
     padding-right: 40px;
     margin-top: 40px;
 }
+
+.login-menu {
+    margin-top: 40px;
+}
+
+.login-form > div {
+    margin-top: 10px;
+}
+
+.nav-link {
+    margin-top: 10px;
+}
+
+.sign-up-form > div {
+    margin-top: 10px;
+}
