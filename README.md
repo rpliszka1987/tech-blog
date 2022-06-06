@@ -7,6 +7,7 @@
 - [Database](#database)
 - [NPM-Packages](#packages)
 - [Github](#github)
+- [Hekou](#heroku)
 - [Screenshot](#screenshot)
 
 ## Description
@@ -45,6 +46,10 @@ Following NPM packages used in this project, also found in the package.json file
 ## Github
 
 - url - https://github.com/rpliszka1987/tech-blog
+
+## Heroku
+
+- url - https://fierce-badlands-64844.herokuapp.com/
 
 ## Screenshot
 
