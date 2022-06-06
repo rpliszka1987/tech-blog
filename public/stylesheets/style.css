@@ -98,3 +98,11 @@ a {
 .sign-up-form > div {
     margin-top: 10px;
 }
+
+.add-post-style {
+    margin-top: 40px;
+}
+
+.logout-button {
+    margin-top: 10px;
+}
